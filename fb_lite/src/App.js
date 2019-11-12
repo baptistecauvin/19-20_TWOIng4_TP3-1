@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Profils from './Components/Profils/profils'
 
 
 //Les profils
@@ -37,25 +37,16 @@ const profil3 = {
 }
 
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <h2>MES TWEETS</h2>
+        <Profils profilData={profil1} />
+      </div>
+    );
+  }
 }
+
 
 export default App;
