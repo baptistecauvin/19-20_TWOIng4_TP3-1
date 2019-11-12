@@ -16,15 +16,15 @@ class Personne extends Component {
         </div>
 
         <div className="nom">
-          <p>{personne.nom}</p>
+          <p>Nom: {personne.nom}</p>
         </div>
 
         <div className="prenom">
-          <p>{personne.prenom}</p>
+          <p>Prenom: {personne.prenom}</p>
         </div>
 
         <div className="daten">
-          <p>{personne.datebirth}</p>
+          <p> Date de naissance: {personne.datebirth}</p>
         </div>
 
         <p className="boutonStyle">
