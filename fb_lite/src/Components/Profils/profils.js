@@ -12,7 +12,7 @@ class Profils extends Component {
 
     // SAME
     const { personne } = this.props.profilData;
-    const contenu= this.props.profilData.contenu;
+    const { contenu }= this.props.profilData;
 
     return(
       <div>

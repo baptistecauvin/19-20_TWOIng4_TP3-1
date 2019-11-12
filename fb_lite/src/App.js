@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Profils from './Components/Profils/profils'
+//import Bouton from './Components/Bouton/bouton'
 
 
 //Les profils
@@ -11,9 +12,13 @@ const profil1 = {
     alt:"test",
     prenom: "Thomas",
     nom : "Shelby",
-    datebirth: "12/12/1212"
+    datebirth: "12/12/1212",
+    id:0
   },
-  contenu: "texte, texte texte texte"
+  contenu: {
+    content: "texte, texte texte texte",
+    like: 123
+}
 }
 
 const profil2 = {
@@ -21,19 +26,26 @@ const profil2 = {
       img:"",
       prenom: "Naruto",
       nom: "Uzumaki",
-      datebirth: "14/04/1950"
+      datebirth: "14/04/1950",
+      id:1
   },
-  contenu: "texte",
+  contenu: {
+    content: "texte, texte texte texte",
+    like: 1234
 }
-
+}
 const profil3 = {
   personne: {
     img:"",
     prenom: "Senku",
     nom: "Ishigami",
-    datebirth: "16/05/1999"
+    datebirth: "16/05/1999",
+    id:2
   },
-  contenu: "texte",
+  contenu: {
+    content: "texte, texte texte texte",
+    like:109
+}
 }
 
 

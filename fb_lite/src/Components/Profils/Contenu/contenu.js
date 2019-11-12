@@ -5,10 +5,14 @@ class Contenu extends Component {
   render() {
     const contenu = this.props.contenu;
     // PAREIL QUE
-    // const { publication } = this.props;
+    // const { contenu } = this.props;
     return (
+
       <div className="publication-content-container">
-        {contenu}
+          {contenu.content}
+          <p className="boutonStyle">
+            <button type="button" class="btn btn-primary" /*onClick={() => this.props.addLike(this.props.personne.id)*/> {/*this.props.*/contenu.like} J aime</button>
+          </p>
       </div>
     );
   }
