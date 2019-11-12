@@ -1,7 +1,14 @@
-.profils-container {
+.personne-container {
   color: blue;
   width: 40%;
   margin: 50px auto;
   padding: 5px;
   border: 1px solid black;
+}
+
+.publi-container{
+	width: 40%;
+  	margin: 50px auto;
+  	padding: 5px;
+  	border: 1px solid black;
 }

@@ -7,13 +7,13 @@ import Profils from './Components/Profils/profils'
 
 const profil1 = {
    personne: {
-    img:"",
+    img:"https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg",
     alt:"test",
     prenom: "Thomas",
     nom : "Shelby",
     datebirth: "12/12/1212"
   },
-  publication: "texte",
+  contenu: "texte, texte texte texte"
 }
 
 const profil2 = {
@@ -23,7 +23,7 @@ const profil2 = {
       nom: "Uzumaki",
       datebirth: "14/04/1950"
   },
-  publication: "texte",
+  contenu: "texte",
 }
 
 const profil3 = {
@@ -33,7 +33,7 @@ const profil3 = {
     nom: "Ishigami",
     datebirth: "16/05/1999"
   },
-  publication: "texte",
+  contenu: "texte",
 }
 
 
@@ -41,7 +41,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h2>MES TWEETS</h2>
+        <h2>Profils</h2>
         <Profils profilData={profil1} />
       </div>
     );
